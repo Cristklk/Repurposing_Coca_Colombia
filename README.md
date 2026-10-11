@@ -1,7 +1,7 @@
 # Repurposing Coca Cultivation in Colombia for Climate Mitigation
 
 ## Project Overview
-This project quantifies the GHG emissions produced by the cocaine production in 2022 accounting for Land-Use change emissions and life cycle emissions along the value chain.  At the same time climate benefits of transitioning illegal coca cultivation areas in Colombia toward four alternative land-use scenarios. By integrating agroclimatic potential yields within high-resolution spatial data (1km² grid) delimiting illegal coca cultivation in 2022.
+This project quantifies the GHG emissions produced by the cocaine production in 2022 accounting for Land-Use change emissions and life cycle emissions along the value chain.  At the same time climate benefits of transitioning illegal coca cultivation areas in Colombia toward four alternative land-use scenarios.
 
 
 
@@ -43,7 +43,7 @@ The spatial analysis was conducted in **ArcGIS Pro** using a conservative "Centr
 Run the scripts in the `data_analysis` folder in order. Each script outputs an Excel file in `/data/results` containing grid-level mitigation and intra-cell variability uncertainty (STD).
 
 ## **Spatial Analysis**
-Run the last script of the spatial analysis incorportating the outputs from the data_analysis.
+Run the last script of the spatial analysis incorporating the outputs from the data_analysis.
 
 ---
 
@@ -59,9 +59,6 @@ Due to licensing restrictions, the raw spatial datasets (e.g., coca density grid
 
 2. Place the files in the data/raw/ directory following the naming conventions listed below.
 
-3. For editors verifying reproducibility: All data is available following the repository structure. Once the paper is published, the restrictions mentioned above will be in place.
----
-
 ## 📂 Repository Structure
 
 Run the code in the following order
@@ -73,7 +70,7 @@ Run the code in the following order
 │   ├── /interim        # Protected:Areas.shp., LUC_emissions_reprojected.tif, Results from the spatial analysis 1
 │   └── /results        # Scenario Excel files from the data analysis & Regional_Exports shapefiles Results from the Spatial analysis
 │
-├── /spatial_analysis         # ArcGIS Pro Spatial Workflow The noteboo should be used in the following order
+├── /spatial_analysis         # ArcGIS Pro Spatial Workflow The notebook should be used in the following order
 │   ├── 1_Spatial_analysis_LUC_emissions.ipynb
 │   ├── 2_Spatial_analysis_NR_Potential.ipynb
 │   ├── 3_Spatial_analysis_Agroclimatic_Potential_yields.ipynb
